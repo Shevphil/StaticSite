@@ -1,0 +1,244 @@
+@font-face {
+  font-family: 'Netflix Custom';
+  src: url('https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Netflix Custom';
+  src: url('https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Netflix Custom', Helvetica, Arial, sans-serif;
+  background-color: black;
+  margin: 0 auto;
+  color: white;
+}
+
+.panel {
+  border-bottom: 8px solid #222;
+}
+
+#firstPanel {
+  background-image: radial-gradient(transparent, black), url("https://assets.nflxext.com/ffe/siteui/vlv3/c385496a-2ed6-4081-9783-49a1ac8a5bbf/eac98c12-f9cc-411b-b5d9-1719ad931736/US-en-20200629-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+  height: 645px;
+  margin: 0px;
+  text-align: center;
+}
+#firstPanelContainer {
+  height: 100%;
+}
+#firstPanelBanner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 2em;
+}
+#logo {
+  float: right;
+  color:red;
+}
+#SignInButton {
+  background-color: red;
+  padding: center;
+  padding: 5px;
+  width: 7em;
+  height: 2em;
+  font-size: 12px;
+  border:0;
+  color: white;
+}
+
+#firstTrialButton {
+  background-color: red;
+  color: white;
+  height: 3em;
+}
+#firstPanelButton {
+  border: 0;
+  height: 3em;
+}
+#fPanelContentBox {
+  font-weight: 500;
+}
+#fPanelContentOne {
+  font-weight: 500;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin-left: 132px ;
+}
+
+.textBox{
+}
+
+.textBoxContents {
+  font-weight: 400;
+  font-size: 1.7em;
+}
+.textBoxHeaders {
+  font-weight: 500;
+  font-size: 1.6em;
+}
+#secondPanel {
+  height: 336px;
+  padding: 70px 45px;
+}
+#secondPanelContentBox {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+#secondPanelTextBox {
+  width:50%;
+  height: 180px;
+  padding-right: 0px 48px 0px 0px;
+}
+#secondPanelImageBox {
+  width: 50%;
+  text-align: center;
+  height: 400px;
+  width: 528px;
+  
+}
+#imageSecond {
+  height: 400px;
+  width: 550px;
+  padding-bottom: 4em;
+}
+
+
+#thirdPanel {
+  height: 325px;
+  padding: 70px 45px;
+}
+#thirdPanelTextBox {
+  width: 50%;
+  text-align:center;
+  padding-left: 4em;
+}
+#thirdPanelHeader {
+  font-weight: 500;
+  font-size: 1.4em;
+  text-align: left;
+}
+#thirdPanelTextContent {
+  font-weight: 400;
+  font-size: 2.0em;
+  text-align: left;
+}
+#thirdPanelImage {
+  height: 430px;
+  width: 600px;
+}
+
+
+
+#fourthPanel {
+  height: 395px;
+  padding: 70px 45px;
+}
+#fourthPanelTextBox {
+  width: 50%;
+  padding-right: 0px 48px 0px 0px;
+  text-align: center;
+}
+#fourthPanelHeader {
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+#fourthPanelTextContent {
+  text-align: left;
+  font-weight: 400;
+  font-size: 2.0em;
+}
+#fourthPanelImage {
+  height: 420px;
+  width: 565px;
+}
+#fourthPanelImageBox {
+  width: 48%;
+  height: 100%;
+}
+
+
+
+#fifthPanel {
+  display: flex;
+  height: 909px;
+  padding: 70px 45px;
+}
+#fifthPanelContentBox {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#fifthPanelBanner {
+  text-align: center;
+  font-weight: 500;
+}
+.fAQItem {
+  background-color: #303030;
+  font-weight: 400;
+  font-size: 1.6em;
+  text-align: left;
+  height: 32px;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  margin-bottom: 1px;
+  border-bottom: 8px solid black;
+}
+#firstFAQ {
+  padding:0.8em 2.2em 0.8em 1.2em;
+}
+#fifthPanelForm {
+  border: 0;
+  width: 840px;
+  height: 80px;
+}
+#fPanelButton {
+  background-color: red;
+  color: white;
+}
+
+
+
+#sixthPanel {
+  height: 373px;
+  color: #222;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 45px;
+}
+#sixthPanelContentBox {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+#sixthHyperlinks {
+  display:flex;
+  float:25%;
+  text-align: left;
+}
+
+#sixthPanelButton {
+  border: 1px;
+  color: white;
+  background-color: #222;
+  width: 4em;
+  height: 2em;
+  padding: center;
+}
